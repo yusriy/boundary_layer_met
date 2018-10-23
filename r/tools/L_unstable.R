@@ -23,7 +23,7 @@ L_unstable <- function(z0h = 0.001, #roughness length for heat [m]
   
   # Difference randomly chosen to be > 0.001
   delta <- 1 
-  while (delta >= 0.0001) {
+  while (delta >= 0.001) {
     #Calculate thetaS
     X1 = (1 - (M_new * gamma * (zT1 + z0h)))^(1/4)
     X2 = (1 - (M_new * gamma * (zT2 + z0h)))^(1/4)
