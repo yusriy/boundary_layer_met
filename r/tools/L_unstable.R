@@ -1,5 +1,5 @@
-# This is a function to calculate the boundary layer parameters from 
-# temperature values at two heights and a wind speed value at 
+# This is a function to calculate the boundary layer parameters under unstable cond.
+# from temperature values at two heights and a wind speed value at 
 # one height.
 # Author: Yusri Yusup, PhD
 # Version: 1.0
